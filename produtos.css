@@ -1,0 +1,46 @@
+header{
+    background-color: #cccccc;
+}
+
+.caixa{
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 129px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
