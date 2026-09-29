@@ -1,45 +1,48 @@
+header{
+    background-color: #cccccc;
+}
+
+.caixa{
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 129px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 #banner{
     width: 100%;
 }
 
-.principal{
-    padding: 30px;
-    background-color: #cccccc;
+main{
+    width: 940px;
+    margin: 0 auto;
 }
 
-h1{
+footer{
+    background-image: url(./img/bg.jpg);
     text-align: center;
+    color: white;
 }
-
-.missao{
-    font-size: 20px;
-}
-
-em strong{
-    color: red;
-}
-
-.beneficios{
-    padding: 20px;
-}
-
-h2{
-    text-align: center;
-}
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin: 0 15% 0 0;
-    
-}
-
-.itens{
-    font-style: italic;
-}
-
-.imagembeneficios{
-    width: 50%;
-}
-
